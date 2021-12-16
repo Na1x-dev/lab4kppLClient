@@ -163,42 +163,6 @@ public class StaticFieldsAndRequests {
         return employees;
     }
 
-    public static List<Application> getResponseComponents() {
-        HttpUriRequest request = new HttpGet(ip + "/components");
-        CloseableHttpClient httpClient = HttpClients.createDefault();
-        CloseableHttpResponse response = null;
-        try {
-            response = httpClient.execute(request);
-            log.info("получен ответ запроса get класса Component");
-        } catch (IOException e) {
-            log.error("нет ответа запроса get класса Component");
-            e.printStackTrace();
-        }
-        request.setHeader("Accept", "application/json");
-        request.setHeader("Content-type", "application/json");
-        HttpEntity entity = response.getEntity();
-        GsonBuilder builder = new GsonBuilder();
-        Gson gson = builder.create();
-        ArrayList<Application> applications = new ArrayList<>();
-        try {
-            if (entity != null) {
-                String result = null;
-                result = EntityUtils.toString(entity);
-                log.info("получена информация объектов класса Component");
-                Type componentsListType = new TypeToken<ArrayList<Application>>() {
-                }.getType();
-                applications = gson.fromJson(result, componentsListType);
-                if (applications == null) {
-                    applications = new ArrayList<>();
-                }
-            }
-        } catch (IOException e) {
-            log.error("не удалось получить информацию объектов класса Components");
-            e.printStackTrace();
-        }
-        return applications;
-    }
-
     public static User postResponseUser(User mainUser) {
         HttpPost request = new HttpPost(ip + "/users");
         CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -231,34 +195,6 @@ public class StaticFieldsAndRequests {
         return checkUser; // возвращает объект юзер, если юзер с таким никнеймом уже существует
     }
 
-//    public static void postResponseBill(Bill bill) {
-//        HttpPost request = new HttpPost(ip + "/bills");
-//        CloseableHttpClient httpClient = HttpClients.createDefault();
-//        request.setEntity(new StringEntity(bill.getJson(), "UTF-8"));
-//        request.setHeader("Accept", "application/json");
-//        request.setHeader("Content-type", "application/json");
-//        CloseableHttpResponse response = null;
-//        try {
-//            response = httpClient.execute(request);
-//            log.info("получен ответ запроса post класса Bill");
-//        } catch (IOException e) {
-//            log.error("нет ответа запроса post класса Bill");
-//            //e.printStackTrace();
-//        }
-//        try {
-//            HttpEntity entity = response.getEntity();
-//            Bill checkBill = new Bill();
-//            if (entity != null) {
-//                String result = null;
-//                result = EntityUtils.toString(entity);
-//                log.info("получена информация объекта класса Bill");
-//            }
-//        } catch (NullPointerException | IOException e) {
-//            log.error("не удалось получить информацию объекта класса Bill");
-//            //e.printStackTrace();
-//        }
-//    }
-
     public static void postResponseApplication(Application application) {
         HttpPost request = new HttpPost(ip + "/applications");
         CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -284,32 +220,6 @@ public class StaticFieldsAndRequests {
             //e.printStackTrace();
         }
     }
-
-//    public static void putResponseBill(Bill bill) {
-//        HttpPut request = new HttpPut(ip + "/bills/byId/" + bill.getId());
-//        request.setHeader("Accept", "application/json");
-//        request.setHeader("Content-type", "application/json");
-//        CloseableHttpClient httpClient = HttpClients.createDefault();
-//        request.setEntity(new StringEntity(bill.getJson(), "UTF-8"));
-//        CloseableHttpResponse response = null;
-//        try {
-//            response = httpClient.execute(request);
-//            log.info("получен ответ запроса put класса Bill");
-//        } catch (IOException e) {
-//            log.error("нет ответа запроса put класса Bill");
-//            //e.printStackTrace();
-//        }
-//        HttpEntity entity = response.getEntity();
-//        try {
-//            if (entity != null) {
-//                String result = EntityUtils.toString(entity);
-//                log.info("получена информация объекта класса Bill");
-//            }
-//        } catch (IOException e) {
-//            log.error("не удалось получить информацию объекта класса Bill");
-//            //e.printStackTrace();
-//        }
-//    }
 
     static void refresh() {
         applications = getResponseApplications(mainUser);

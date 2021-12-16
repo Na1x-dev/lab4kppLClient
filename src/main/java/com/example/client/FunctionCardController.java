@@ -103,21 +103,11 @@ public class FunctionCardController {
         priceLabel.setText("0$");
     }
 
-    String takeNumberFromField(){
-        String volumeValue = jobVolumeField.getText();
-//        Pattern volumePattern = Pattern.compile("[^0123456789]+");
-//        Matcher volumeMatcher = volumePattern.matcher(volumeValue);
-//        if(volumeMatcher.matches()){
-//            volumeValue=volumeValue.substring(0,volumeValue.length()-volumeMatcher.group().length());
-//        }
-
-        return volumeValue;
-    }
-
     void changeEmployee() {
         employees = getResponseEmployees();
-        int min = applications.size();
+        int minCount = applications.size();
         int employeeId = 0;
+        int maxScore = 0;
         for (int i = 0; i < employees.size(); i++) {
             int count = 0;
             for (int j = 0; j < applications.size(); j++) {
@@ -125,8 +115,10 @@ public class FunctionCardController {
                     count++;
                 }
             }
-            if (count <= min && employees.get(i).getSkill().equals(functions.get(idButton))) { //поиск работника с нужной специализацией и минимумом работы
-                min = count;
+            if ((count < minCount && employees.get(i).getSkill().equals(functions.get(idButton))) || (count == minCount
+                    && employees.get(i).getSkill().equals(functions.get(idButton)) && maxScore< employees.get(i).getScore())) { //поиск работника с нужной специализацией и минимумом работы и лучшим рейтингом
+                minCount = count;
+                maxScore = employees.get(i).getScore();
                 employeeId = employees.get(i).getId();
             }
         }

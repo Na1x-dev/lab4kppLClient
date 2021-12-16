@@ -5191,3 +5191,392 @@
 2021-12-16 20:01:12 INFO  StaticFieldsAndRequests:48 - получена информация объекта класса User
 2021-12-16 20:01:15 INFO  StaticFieldsAndRequests:35 - получен ответ запроса get класса User
 2021-12-16 20:01:15 INFO  StaticFieldsAndRequests:48 - получена информация объекта класса User
+2021-12-16 20:23:02 ERROR StaticFieldsAndRequests:37 - нет ответа запроса get класса User
+2021-12-16 20:23:02 ERROR StaticFieldsAndRequests:55 - не удалось получить информацию объекта класса User
+2021-12-16 20:23:06 ERROR StaticFieldsAndRequests:37 - нет ответа запроса get класса User
+2021-12-16 20:23:06 ERROR StaticFieldsAndRequests:55 - не удалось получить информацию объекта класса User
+2021-12-16 20:24:17 INFO  StaticFieldsAndRequests:35 - получен ответ запроса get класса User
+2021-12-16 20:24:17 INFO  StaticFieldsAndRequests:48 - получена информация объекта класса User
+2021-12-16 20:24:22 INFO  StaticFieldsAndRequests:35 - получен ответ запроса get класса User
+2021-12-16 20:24:22 INFO  StaticFieldsAndRequests:48 - получена информация объекта класса User
+2021-12-16 20:24:52 INFO  StaticFieldsAndRequests:35 - получен ответ запроса get класса User
+2021-12-16 20:24:52 INFO  StaticFieldsAndRequests:48 - получена информация объекта класса User
+2021-12-16 20:24:52 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:52 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:52 INFO  HelloController:88 - окно mainWindow успешно создано
+2021-12-16 20:24:53 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:53 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:54 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:24:54 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:54 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:55 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:55 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:56 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:24:56 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:56 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:57 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:57 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:136 - получен ответ запроса get класса List<Employee>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:151 - получена информация объекта класса List<Employee>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:207 - получен ответ запроса post класса Application
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:216 - получена информация объекта класса Application
+2021-12-16 20:24:58 INFO  FunctionCardController:77 - окно ApplicationCard успешно закрыто
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:58 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:24:59 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:24:59 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:00 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:00 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:01 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:01 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:02 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:25:02 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:02 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:03 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:03 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:136 - получен ответ запроса get класса List<Employee>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:151 - получена информация объекта класса List<Employee>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:207 - получен ответ запроса post класса Application
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:216 - получена информация объекта класса Application
+2021-12-16 20:25:04 INFO  FunctionCardController:77 - окно ApplicationCard успешно закрыто
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:04 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:05 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:25:05 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:05 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:06 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:06 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:136 - получен ответ запроса get класса List<Employee>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:151 - получена информация объекта класса List<Employee>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:207 - получен ответ запроса post класса Application
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:216 - получена информация объекта класса Application
+2021-12-16 20:25:07 INFO  FunctionCardController:77 - окно ApplicationCard успешно закрыто
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:07 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:08 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:08 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:09 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:09 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:10 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:10 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:11 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:11 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:12 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:12 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:13 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:13 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:14 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:14 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:15 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:15 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:16 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:16 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:17 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:17 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:18 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:18 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:19 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:19 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:20 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:20 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:21 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:21 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:22 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:22 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:23 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:23 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:24 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:24 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:25 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:25 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:27 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:27 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:28 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:28 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:29 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:29 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:30 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:30 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:31 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:31 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:32 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:32 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:33 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:33 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:34 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:34 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:35 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:35 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:36 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:36 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:37 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:37 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:38 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:38 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:39 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:39 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:40 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:40 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:41 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:41 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:42 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:42 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:43 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:43 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:44 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:44 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:45 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:45 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:46 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:46 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:47 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:47 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:48 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:48 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:49 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:49 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:50 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:50 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:25:51 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:51 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:52 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:52 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:53 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:53 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:54 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:54 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:55 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:55 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:56 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:56 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:57 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:57 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:58 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:25:58 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:58 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:25:59 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:25:59 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:00 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:00 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:01 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:01 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:136 - получен ответ запроса get класса List<Employee>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:151 - получена информация объекта класса List<Employee>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:207 - получен ответ запроса post класса Application
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:216 - получена информация объекта класса Application
+2021-12-16 20:26:02 INFO  FunctionCardController:77 - окно ApplicationCard успешно закрыто
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:02 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:03 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:03 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:04 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:04 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:104 - получен ответ запроса get класса Employee
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:117 - получена информация объекта класса Employee
+2021-12-16 20:26:05 INFO  MainWindowController:166 - окно ApplicationCard успешно создано
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:05 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:06 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:06 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:07 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:07 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:08 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:08 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:09 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:09 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:09 INFO  MainWindowController:90 - окно FunctionCard успешно создано
+2021-12-16 20:26:10 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:10 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:11 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:11 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:12 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:12 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:13 INFO  MainWindowController:71 - окно hello-view успешно создано
+2021-12-16 20:26:13 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:13 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:14 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:14 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:15 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:15 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:16 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:16 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:17 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:17 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:18 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:18 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:19 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:19 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:20 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:20 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:21 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:21 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:22 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:22 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:23 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:23 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:24 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:24 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:25 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:25 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:26 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:26 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:27 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:27 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:28 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:28 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:29 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:29 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:30 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:30 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:31 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:31 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:32 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:32 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:33 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:33 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:34 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:34 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:35 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:35 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:36 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:36 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:37 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:37 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:38 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:38 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:39 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:39 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:40 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:40 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:41 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:41 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:42 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:42 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:43 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:43 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:44 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:44 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:45 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:45 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:46 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:46 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:47 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:47 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:48 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:48 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:49 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:49 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:50 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:50 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:51 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:51 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:52 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:52 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:53 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:53 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:54 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:54 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:55 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:55 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:56 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:56 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:57 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:57 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:58 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:58 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:26:59 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:26:59 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:00 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:00 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:01 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:01 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:02 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:02 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:03 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:03 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:04 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:04 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:05 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:05 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:07 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:07 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:08 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:08 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:09 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:09 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:10 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:10 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:11 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:11 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
+2021-12-16 20:27:12 INFO  StaticFieldsAndRequests:68 - получен ответ запроса get класса List<Application>
+2021-12-16 20:27:12 INFO  StaticFieldsAndRequests:83 - получена информация объекта класса List<Application>
