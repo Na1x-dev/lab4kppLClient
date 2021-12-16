@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.ApplicationCardController">
+   <children>
+      <Label layoutX="37.0" layoutY="37.0" prefHeight="50.0" prefWidth="156.0" text="Вид работы:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="jobTypeLabel" alignment="CENTER_RIGHT" layoutX="194.0" layoutY="37.0" prefHeight="50.0" prefWidth="270.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="157.0" layoutY="610.0" mnemonicParsing="false" onAction="#toMainWindow" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="50.0" prefWidth="186.0" style="-fx-background-color: #f4f4f4; -fx-border-color: #000; -fx-border-width: 0.4;" text="Закрыть">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="37.0" layoutY="87.0" prefHeight="50.0" prefWidth="179.0" text="ФИО мастера:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="FIOLabel" alignment="CENTER_RIGHT" layoutX="30.0" layoutY="112.0" prefHeight="112.0" prefWidth="440.0" text="x" textAlignment="RIGHT" wrapText="true">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="325.0" prefHeight="50.0" prefWidth="186.0" text="Объем работы:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="jobVolumeLabel" alignment="CENTER_RIGHT" layoutX="194.0" layoutY="325.0" prefHeight="50.0" prefWidth="270.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="512.0" prefHeight="50.0" prefWidth="259.0" text="Итоговая стоимость">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="priceLabel" alignment="CENTER_RIGHT" layoutX="293.0" layoutY="512.0" prefHeight="50.0" prefWidth="171.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="37.0" layoutY="375.0" prefHeight="50.0" prefWidth="156.0" text="Статус:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="statusLabel" alignment="CENTER_RIGHT" layoutX="194.0" layoutY="375.0" prefHeight="50.0" prefWidth="270.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="224.0" prefHeight="50.0" prefWidth="212.0" text="Оценка мастера:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" alignment="CENTER_RIGHT" layoutX="247.0" layoutY="224.0" prefHeight="50.0" prefWidth="143.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="387.0" layoutY="224.0" prefHeight="50.0" prefWidth="83.0" text="из 100">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="274.0" prefHeight="50.0" prefWidth="220.0" text="Телефон:">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneNumberLabel" alignment="CENTER_RIGHT" layoutX="194.0" layoutY="274.0" prefHeight="50.0" prefWidth="270.0" text="х">
+         <font>
+            <Font name="Montserrat ExtraLight" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
