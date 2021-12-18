@@ -25,6 +25,7 @@ public class StaticFieldsAndRequests {
     public static int idButton;
     public static int idApplication;
     public static String logString;
+    public static boolean isConnected;
 
     public static User getResponseUser(User mainUser) {
         HttpUriRequest request = new HttpGet(ip + "/users/byUsername/" + mainUser.getUsername());
@@ -59,7 +60,7 @@ public class StaticFieldsAndRequests {
         return checkUser;
     }
 
-    public static List<Application> getResponseApplications(User mainUser) {
+    public static List<Application> getResponseApplications(User mainUser) throws NullPointerException, IOException{ //
         HttpUriRequest request = new HttpGet(ip + "/applications/byClientId/" + mainUser.getId());
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
@@ -68,7 +69,6 @@ public class StaticFieldsAndRequests {
             log.info("получен ответ запроса get класса List<Application>");
         } catch (IOException e) {
             log.error("нет ответа запроса get класса List<Application>");
-            e.printStackTrace();
         }
         request.setHeader("Accept", "application/json; charset=UTF-8");
         request.setHeader("Content-type", "application/json; charset=UTF-8");
@@ -90,7 +90,7 @@ public class StaticFieldsAndRequests {
             }
         } catch (IOException e) {
             log.error("не удалось получить информацию объекта класса List<Application>");
-            e.printStackTrace();
+            //e.printStackTrace();
         }
         return applications;
     }
@@ -221,7 +221,57 @@ public class StaticFieldsAndRequests {
         }
     }
 
-    static void refresh() {
-        applications = getResponseApplications(mainUser);
+    public static void putResponseApplication(Application application) {
+        HttpPut request = new HttpPut(ip + "/applications/byId/" + application.getId());
+        request.setHeader("Accept", "application/json");
+        request.setHeader("Content-type", "application/json");
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        request.setEntity(new StringEntity(application.getJson(), "UTF-8"));
+        CloseableHttpResponse response = null;
+        try {
+            response = httpClient.execute(request);
+            log.info("получен ответ запроса put класса Application");
+        } catch (IOException e) {
+            log.error("нет ответа запроса put класса Application");
+            //e.printStackTrace();
+        }
+        HttpEntity entity = response.getEntity();
+        try {
+            if (entity != null) {
+                String result = EntityUtils.toString(entity);
+                log.info("получена информация объекта класса Application");
+            }
+        } catch (IOException e) {
+            log.error("не удалось получить информацию объекта класса Application");
+            //e.printStackTrace();
+        }
     }
+
+    public static void putResponseEmployee(Employee employee) {
+        HttpPut request = new HttpPut(ip + "/employees/byId/" + employee.getId());
+        request.setHeader("Accept", "application/json");
+        request.setHeader("Content-type", "application/json");
+        CloseableHttpClient httpClient = HttpClients.createDefault();
+        request.setEntity(new StringEntity(employee.getJson(), "UTF-8"));
+        CloseableHttpResponse response = null;
+        try {
+            response = httpClient.execute(request);
+            log.info("получен ответ запроса put класса Employee");
+        } catch (IOException e) {
+            log.error("нет ответа запроса put класса Employee");
+            //e.printStackTrace();
+        }
+        HttpEntity entity = response.getEntity();
+        try {
+            if (entity != null) {
+                String result = EntityUtils.toString(entity);
+                log.info("получена информация объекта класса Employee");
+            }
+        } catch (IOException e) {
+            log.error("не удалось получить информацию объекта класса Employee");
+            //e.printStackTrace();
+        }
+    }
+
+
 }

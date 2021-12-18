@@ -16,6 +16,7 @@ public class Application {
     public double jobVolume;
     public double price;
     public String status;
+    public Integer score;
     public Integer clientId;
     //private AnchorPane applicationPane = new AnchorPane();
 
@@ -25,6 +26,7 @@ public class Application {
         jobVolume = 100;
         price = 99.99;
         status = "выполняется";
+        score = 100;
         clientId = -1;
     }
 
@@ -56,6 +58,10 @@ public class Application {
         return clientId;
     }
 
+    public Integer getScore() {
+        return score;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -84,6 +90,9 @@ public class Application {
         this.status = status;
     }
 
+    public void setScore(Integer score) {
+        this.score = score;
+    }
 
     public AnchorPane createApplicationWidget(AnchorPane applicationsField, int y) {
         Label jobTypeLabel = new Label(this.jobType);
@@ -142,5 +151,17 @@ public class Application {
         return gson.toJson(Application.this);
     }
 
-
+    @Override
+    public String toString() {
+        return "Application{" +
+                "id=" + id +
+                ", masterId=" + masterId +
+                ", jobType='" + jobType + '\'' +
+                ", jobVolume=" + jobVolume +
+                ", price=" + price +
+                ", status='" + status + '\'' +
+                ", score=" + score +
+                ", clientId=" + clientId +
+                '}';
+    }
 }

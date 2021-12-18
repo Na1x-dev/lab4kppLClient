@@ -96,6 +96,16 @@ public class Employee {
         return gson.toJson(Employee.this);
     }
 
-
-
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                ", skill='" + skill + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", score=" + score +
+                '}';
+    }
 }

@@ -9,12 +9,14 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 import org.apache.log4j.Logger;
 
 import java.io.IOException;
+import java.net.ConnectException;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
@@ -32,6 +34,9 @@ public class MainWindowController {
 
     @FXML
     private AnchorPane applicationsField;
+
+    @FXML
+    private Label logLabel;
 
     @FXML
     void onButtonRelease(MouseEvent event) {
@@ -95,6 +100,8 @@ public class MainWindowController {
 
     @FXML
     private void initialize() {
+        renderApplications();
+        refresh();
         Runnable task = () -> {
             while (true) {
                 try {
@@ -111,9 +118,7 @@ public class MainWindowController {
     }
 
     void renderApplications() {
-        Platform.runLater(() -> {
-            applicationsField.getChildren().clear();
-        });
+
         for (int i = 0; i < applications.size(); i++) {
             AnchorPane anchorPane;
             int y = 150 * i + 10 * i;
@@ -166,6 +171,22 @@ public class MainWindowController {
             log.info("окно ApplicationCard успешно создано");
         } catch (IOException e) {
             log.error("окно ApplicationCard не создано");
+        }
+    }
+
+    void refresh() {
+        try {
+            applications = getResponseApplications(mainUser);
+            Platform.runLater(() -> {
+                logLabel.setText("");
+                isConnected = true;
+            });
+        } catch (NullPointerException | IOException e){
+            Platform.runLater(() -> {
+                isConnected = false;
+                applicationsField.getChildren().clear();
+                logLabel.setText("В данный момент сервер недоступен");
+            });
         }
     }
 }

@@ -37,6 +37,8 @@ public class FunctionCardController {
     @FXML
     private Label priceLabel;
 
+    @FXML
+    private Label unitLabel;
 
     @FXML
     void onButtonRelease(MouseEvent event) {
@@ -75,16 +77,8 @@ public class FunctionCardController {
                 postResponseApplication(application);
                 ((Node) (event.getSource())).getScene().getWindow().hide();
                 log.info("окно ApplicationCard успешно закрыто");
-                refresh();
             }
         }
-    }
-
-    @FXML
-    void onChangeField(KeyEvent event) {
-
-        //jobVolumeField.setText(takeNumberFromField());
-   //     calculatePrice();
     }
 
     @FXML
@@ -94,13 +88,15 @@ public class FunctionCardController {
             if (!p.matcher(newValue).matches()) jobVolumeField.setText(oldValue);
             calculatePrice();
         });
-
         application = new Application();
         initPricesForOne();
         initFunctions();
         jobTypeLabel.setText(functions.get(idButton));
         priceForOneLabel.setText(pricesForOne.get(idButton) + "$");
         priceLabel.setText("0$");
+        setUnit();
+        doApplicationButton.setDisable(!isConnected);
+
     }
 
     void changeEmployee() {
@@ -148,4 +144,10 @@ public class FunctionCardController {
         functions.put(3, "Кладка плитки");
         functions.put(4, "Покраска");
     }
+
+    void setUnit() {
+        if (functions.get(idButton).equals("Кладка блоков")) unitLabel.setText("м³");
+        else unitLabel.setText("м²");
+    }
+
 }
