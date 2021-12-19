@@ -121,7 +121,7 @@ public class MainWindowController {
 
         for (int i = 0; i < applications.size(); i++) {
             AnchorPane anchorPane;
-            int y = 150 * i + 10 * i;
+            int y = 70 * i + 10 * i;
             anchorPane = applications.get(i).createApplicationWidget(applicationsField, y);
             initializeApplications(anchorPane, i); // настройка действий для виджетов заявок
         }

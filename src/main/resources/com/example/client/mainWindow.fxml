@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane fx:id="LogInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1018.0" prefWidth="1920.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.MainWindowController">
+<AnchorPane fx:id="LogInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1200.0" style="-fx-background-color: #f4f4f4;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.client.MainWindowController">
    <children>
-      <ScrollPane focusTraversable="false" hbarPolicy="NEVER" layoutX="65.0" layoutY="85.0" pickOnBounds="false" prefHeight="720.0" prefWidth="450.0" style="-fx-border-color: #f4f4f4;" vbarPolicy="NEVER">
+      <ScrollPane focusTraversable="false" hbarPolicy="NEVER" layoutX="84.0" layoutY="108.0" pickOnBounds="false" prefHeight="355.0" prefWidth="255.0" style="-fx-border-color: #f4f4f4;" vbarPolicy="NEVER" AnchorPane.topAnchor="108.0">
          <content>
-            <AnchorPane fx:id="applicationsField" layoutX="10.0" layoutY="10.0" pickOnBounds="false" prefHeight="700.0" prefWidth="430.0" />
+            <AnchorPane fx:id="applicationsField" pickOnBounds="false" prefHeight="350.0" prefWidth="250.0" />
          </content>
-         <padding>
-            <Insets bottom="8.5" left="8.5" right="8.5" top="8.5" />
-         </padding>
       </ScrollPane>
-      <Button fx:id="backToLogInButton" layoutX="75.0" layoutY="845.0" mnemonicParsing="false" onAction="#backToLogin" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="60.0" prefWidth="430.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Выйти">
+      <Button fx:id="backToLogInButton" layoutX="87.0" layoutY="468.0" mnemonicParsing="false" onAction="#backToLogin" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="40.0" prefWidth="250.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Выйти">
          <font>
-            <Font name="Montserrat ExtraLight" size="30.0" />
+            <Font name="Montserrat ExtraLight" size="15.0" />
          </font>
       </Button>
-      <Button fx:id="func_2" layoutX="525.0" layoutY="510.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="395.0" prefWidth="430.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Штукатурка стен">
+      <Button fx:id="func_2" layoutX="346.0" layoutY="313.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="195.0" prefWidth="250.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Штукатурка стен">
          <font>
-            <Font name="Montserrat ExtraLight" size="36.0" />
+            <Font name="Montserrat ExtraLight" size="23.0" />
          </font></Button>
-      <Button fx:id="func_3" layoutX="975.0" layoutY="95.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="810.0" prefWidth="430.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Кладка плитки">
+      <Button fx:id="func_3" layoutX="606.0" layoutY="108.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Кладка плитки">
          <font>
-            <Font name="Montserrat ExtraLight" size="36.0" />
+            <Font name="Montserrat ExtraLight" size="23.0" />
          </font></Button>
-      <Button fx:id="func_4" layoutX="1425.0" layoutY="95.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="810.0" prefWidth="430.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Покраска">
+      <Button fx:id="func_4" layoutX="866.0" layoutY="108.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="400.0" prefWidth="250.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Покраска">
          <font>
-            <Font name="Montserrat ExtraLight" size="36.0" />
+            <Font name="Montserrat ExtraLight" size="23.0" />
          </font></Button>
-      <Button fx:id="func_1" layoutX="525.0" layoutY="95.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="395.0" prefWidth="430.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Кладка блоков">
+      <Button fx:id="func_1" layoutX="346.0" layoutY="109.0" mnemonicParsing="false" onAction="#openFunctionCard" onMouseEntered="#onButtonEnter" onMouseExited="#onButtonExit" onMousePressed="#onButtonPress" onMouseReleased="#onButtonRelease" prefHeight="195.0" prefWidth="250.0" style="-fx-background-color: #f4f4f4; -fx-border-width: 0.4; -fx-border-color: #000000;" text="Кладка блоков">
          <font>
-            <Font name="Montserrat ExtraLight" size="36.0" />
-         </font></Button>
-      <Label fx:id="logLabel" alignment="CENTER" layoutX="370.0" layoutY="35.0" prefHeight="30.0" prefWidth="1180.0" textAlignment="CENTER">
+            <Font name="Montserrat ExtraLight" size="23.0" />
+         </font>
+      </Button>
+      <Label fx:id="logLabel" alignment="CENTER" layoutX="10.0" layoutY="31.0" prefHeight="30.0" prefWidth="1180.0" textAlignment="CENTER">
          <font>
             <Font name="Montserrat ExtraLight" size="24.0" />
          </font>

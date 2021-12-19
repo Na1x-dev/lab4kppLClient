@@ -100,7 +100,7 @@ public class Application {
         Label priceLabel = new Label(String.valueOf(this.price) + "$");
         AnchorPane applicationPane = new AnchorPane(jobTypeLabel, statusLabel, priceLabel);
         applicationPane.setLayoutY(y);
-        applicationPane.setMinSize(430, 150);
+        applicationPane.setMinSize(250, 70);
         applicationPane.setStyle("-fx-background-color: #f4f4f4; -fx-border-color: #000; -fx-border-width: 0.4;");
 
         jobTypeStyle(jobTypeLabel);
@@ -113,29 +113,29 @@ public class Application {
     }
 
     void jobTypeStyle(Label nameOfApplicationLabel){
-        Font underdogFont = new Font("Montserrat ExtraLight", 28);
+        Font underdogFont = new Font("Montserrat ExtraLight", 16);
         nameOfApplicationLabel.fontProperty().set(underdogFont);
-        nameOfApplicationLabel.setLayoutX(15);
-        nameOfApplicationLabel.setLayoutY(15);
-        nameOfApplicationLabel.setMinSize(400, 0);
-        nameOfApplicationLabel.setMaxWidth(400);
+        nameOfApplicationLabel.setLayoutX(8);
+        nameOfApplicationLabel.setLayoutY(8);
+        nameOfApplicationLabel.setMinSize(100, 0);
+        nameOfApplicationLabel.setMaxWidth(220);
         nameOfApplicationLabel.setAlignment(Pos.CENTER_LEFT);
         nameOfApplicationLabel.setTextOverrun(OverrunStyle.ELLIPSIS);
     }
 
     void statusStyle(Label checkNumberLabel){
-        Font underdogFont = new Font("Montserrat ExtraLight", 16);
+        Font underdogFont = new Font("Montserrat ExtraLight", 10);
         checkNumberLabel.fontProperty().set(underdogFont);
-        checkNumberLabel.setLayoutX(15);
-        checkNumberLabel.setLayoutY(110);
+        checkNumberLabel.setLayoutX(8);
+        checkNumberLabel.setLayoutY(50);
     }
 
     void priceStyle(Label priceLabel){
-        Font underdogFont = new Font("Montserrat ExtraLight", 22);
+        Font underdogFont = new Font("Montserrat ExtraLight", 14);
         priceLabel.fontProperty().set(underdogFont);
-        priceLabel.setLayoutX(250);
-        priceLabel.setLayoutY(100);
-        priceLabel.setMinSize(160, 0);
+        priceLabel.setLayoutX(142);
+        priceLabel.setLayoutY(50);
+        priceLabel.setMinSize(100, 0);
         priceLabel.setAlignment(Pos.CENTER_RIGHT);
     }
 

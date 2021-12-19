@@ -123,7 +123,7 @@ public class SignInController {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader();
             fxmlLoader.setLocation(getClass().getResource("mainWindow.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
+            Scene scene = new Scene(fxmlLoader.load(), 1200, 600);
             Stage stage = new Stage();
             stage.setTitle("Main Window");
             stage.setScene(scene);
